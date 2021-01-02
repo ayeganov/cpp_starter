@@ -1,7 +1,7 @@
 # Generic test that uses conan libs
-add_executable(intro main.cpp)
+add_executable(solve main.cpp)
 target_link_libraries(
-  intro
+  solve
   PRIVATE project_options
           project_warnings
           CONAN_PKG::docopt.cpp
