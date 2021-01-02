@@ -1,0 +1,5 @@
+*.un~
+*.swp
+*.envrc
+build
+compile_commands.json
